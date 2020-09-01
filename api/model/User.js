@@ -6,6 +6,10 @@ const userSchema = new mongoose.Schema({
         required: true,
         max: 255
     },
+    phone_no: {
+        type: Number,
+        required: true
+    },
     password: {
         type: String,
         required: true,
